@@ -7,7 +7,7 @@
         box-shadow: 0 2px 2px -2px rgba(36, 35, 35, 0.2);
         position: sticky;
         z-index: 10;
-        transition: 0.5s;
+        transition: 0.9s ease;
     }
     
     .bg-color.scrolled {
@@ -17,19 +17,22 @@
     
     .text-header {
         padding-top: 90px;
-        transition: 1.5s;
+        padding-bottom: 50px;
+        transition: 1.0s ease-in;
     }
     
-    mark {
-        color: #FFCE02;
+    span {
+        background-color: #FFCE02;
         font-weight: 500;
-        background-color: white;
+        color: black;
+        padding: 2px 2px 2px 2px;
+        border-radius: 8px;
     }
     
     .img-fluid {
         max-width: 100%;
         height: auto;
-        padding-top: 40px;
+        padding-top: 65px;
     }
     
     img,
@@ -46,4 +49,10 @@
     
     .content1 {
         background-color: #FFE164 !important;
+    }
+    
+    .text-intro {
+        background-color: rgb(221, 182, 8);
+        padding-left: 25px;
+        border-radius: 35px;
     }
