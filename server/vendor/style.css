@@ -47,8 +47,14 @@
         }
     }
     
-    .content1 {
-        background-color: #FFE164 !important;
+    .about {
+        background-color: #ffe164 !important;
+        padding-top: 50px;
+    }
+    
+    .text-about {
+        font-size: large;
+        font-weight: 600;
     }
     
     .text-intro {
