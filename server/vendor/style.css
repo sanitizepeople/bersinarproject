@@ -50,11 +50,13 @@
     #about {
         background-color: #ffe164 !important;
         padding-top: 50px;
+        padding-bottom: 90px;
     }
     
     .text-about {
-        font-size: large;
+        font-size: 18pt;
         font-weight: 450;
+        padding-top: 86px;
     }
     
     .text-intro {
